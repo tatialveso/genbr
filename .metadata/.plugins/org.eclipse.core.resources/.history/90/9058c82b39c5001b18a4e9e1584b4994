@@ -1,0 +1,11 @@
+import java.util.*;
+public class ex01 {
+	public static void main(String[] args) {
+		Scanner answer = new Scanner(System.in);
+				
+		int age;
+		
+		System.out.println("Quantos anos você tem?");
+		age = answer.nextInt();
+	}
+}

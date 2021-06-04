@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class ex03 {
+	public static void main(String[] args) {
+		Scanner answer = new Scanner(System.in);
+		
+		int seconds = 0;
+		int secInHours = 0;
+		int secInMinutes = 0;
+		
+		System.out.println("Quantos segundos tem esse evento?");
+		seconds = answer.nextInt();
+		
+		secInHours = seconds / 3600;
+		secInMinutes = seconds / 60;
+		
+		System.out.println("Esse evento possui " + secInHours + " horas e " + secInMinutes + " minutos");
+	}
+}
