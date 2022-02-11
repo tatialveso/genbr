@@ -1,0 +1,39 @@
+/* o css global seta as configurações para todas as páginas html,
+dessa forma iremos economizar tempo e linha de código, pois não precisaremos
+copiar o código abaixo nos três arquivos de css */
+
+/* configuração para tudo */
+* {
+    box-sizing: border-box; /*estamos setando que o tamanho do elemento é o tamanho da caixa do elemento pai */
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* configuração do header */
+header {
+    color: #FFFFFF;
+    text-align: center;
+    
+    margin: 0;
+    padding: 20px;
+}
+
+/* configuração das imagens */
+img {
+    width: 100%;
+}
+
+/* configurações de links */
+a {
+    text-decoration: none;
+}
+
+/* configuração do rodapé */
+footer {
+    color: #FFFFFF;
+    text-align: center;
+
+    padding: 20px;
+}
