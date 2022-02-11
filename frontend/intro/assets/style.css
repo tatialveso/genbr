@@ -13,7 +13,8 @@ h2 {
 /* configuração da grade de imagens com links */
 main {
     display: grid; /* transforma o elemento em uma grade */
-    grid-template-columns: repeat(4, 1fr); /* as colunas devem estar divididas em tamanho iguais (1fr = 1 fração) e deve ter 4 colunas*/
+    grid-template-columns: repeat(4, 1fr); /* as colunas devem estar divididas em tamanho iguais (1fr = 1 fração) e
+                                                deve ter 4 colunas*/
     gap: 40px; /* o espaço entre uma imagem e outra*/
 
     margin: 40px;
