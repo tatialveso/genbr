@@ -1,0 +1,20 @@
+/* configuração para o header e o footer */
+header,
+footer {
+    background-color: #0d4461;
+}
+
+/* configuração do subtítulo */
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* configuração da grade de imagens com links */
+main {
+    display: grid; /* transforma o elemento em uma grade */
+    grid-template-columns: repeat(4, 1fr); /* as colunas devem estar divididas em tamanho iguais (1fr = 1 fração) e deve ter 4 colunas*/
+    gap: 40px; /* o espaço entre uma imagem e outra*/
+
+    margin: 40px;
+}
