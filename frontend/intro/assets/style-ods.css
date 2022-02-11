@@ -1,0 +1,59 @@
+/* configurações para o header e o footer */
+header,
+footer {
+    background-color: #009edb;
+}
+
+/* configurações do menu de navegação */
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+/* configurações para os links */
+a {
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 0 20px;
+}
+
+a:hover /* ao passar o mouse a cor do link mudará*/ {
+    color: #009edb; 
+}
+
+/* configuração do subtítulo */
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #009edb;
+
+    font-size: 20px;
+}
+
+#projeto /* pelo id conseguimos criar uma identificação única com o elemento para
+            diferenciá-lo de outros iguais na mesma página*/ {
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* configuração da lista */
+ul {
+    list-style: none; /* essa propriedade muda o estilo da lista, se aparecerá em bullet (pontinhos),
+                            quadradinhos, no caso estamos setando para não aparecer pontos de itens da nossa lista */
+    
+    padding: 50px;
+}
+
+li {
+    padding: 5px 0;
+    letter-spacing: .1px;
+}
+
+.meta /* pela classe conseguimos criar um grupo de elementos diferentes que terão a mesma configuração de estilo */ {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
